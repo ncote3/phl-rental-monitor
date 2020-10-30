@@ -1,0 +1,29 @@
+@import url("https://use.typekit.net/duo8woy.css");
+$background-color: #F8F8F8;
+
+// Assuming the default resolution is 1440x900 (Macbook)
+.bannerBackground {
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.01), 0 20px 25px -3px rgba(0, 0, 0, 0.1);
+  width: 70vw;
+  margin: auto;
+  .bannerTextBackgroundGradient {
+    background: linear-gradient(90deg, #2B2D42 0%, #699994 88.16%, #7EBDB0 95.3%, #97EAD2 100%);
+    mix-blend-mode: color-burn;
+    .bannerTextBlur {
+      background: linear-gradient(107.79deg, rgba(248, 248, 248, 0.5) 1.32%, rgba(254, 254, 254, 0.075) 39.77%, rgba(255, 255, 255, 0.025) 53.92%, rgba(255, 255, 255, 0) 60.38%);
+       // may cause problems as not widely accepted
+      padding: 1vw;
+      //backdrop-filter: blur(9px);
+      h1 {
+        padding: 3vw;
+        font-family: montserrat,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 36pt;
+        line-height: 36pt;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
+      }
+    }
+  }
+}

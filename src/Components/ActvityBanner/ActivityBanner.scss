@@ -1,0 +1,22 @@
+@import url("https://use.typekit.net/duo8woy.css");
+
+.activityBannerBackground {
+  background: linear-gradient(0deg, #F8F8F8, #F8F8F8);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  .activityBannerTextBackground {
+    background: linear-gradient(
+                    107.79deg,
+                    rgba(248, 248, 248, 0.5) 1.32%,
+                    rgba(254, 254, 254, 0.075) 39.77%,
+                    rgba(255, 255, 255, 0.025) 53.92%,
+                    rgba(255, 255, 255, 0) 60.38%
+    );
+    h1 {
+      font-size: 36pt;
+      line-height: 36pt;
+      font-family: Montserrat, serif;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+}
